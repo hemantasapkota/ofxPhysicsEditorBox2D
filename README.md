@@ -48,10 +48,10 @@ Usage
   NSString *file = [[NSString alloc] initWithCString:"images/bgFixture.plist"
                                               encoding:NSUTF8StringEncoding];
   [[GB2ShapeCache sharedShapeCache]
-  		  //the file exported by Physics Editor
+  		            //the file exported by Physics Editor
                   addShapesWithFile:file       
                   
-                  //With defaut anchor point, we need to flip the y-coordinate  
+                  //With default anchor point, we need to flip the y-coordinate  
                   screenHeight:ofGetHeight()  
                   
                   //Scale Factor
@@ -79,7 +79,7 @@ See [Example](example/) for more details.
 
 To-Do
 -----
-* Support for multiple bodies
+* Debug Draw support for multiple bodies
 
 About
 -----
