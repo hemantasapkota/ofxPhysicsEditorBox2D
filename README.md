@@ -29,6 +29,48 @@ The following screenshot was taken from iPAD Mini Retina.
 
 ![Output](screenshots/peOutput.png)
 
+Usage
+-----
+* Init Box2D
+  ```
+  box2d.init();
+	box2d.setGravity(0, 10);
+	box2d.setFPS(60.0);
+  ```
+* Create a Body
+  ```
+  b2BodyDef bodydef;
+  bodydef.type = b2_staticBody; //could be static, dynamic or kinematic
+  gameArea = box2d.getWorld()->CreateBody(&bodydef);
+  ```
+* Load fixture file
+  ```
+  NSString *file = [[NSString alloc] initWithCString:"images/bgFixture.plist"
+                                              encoding:NSUTF8StringEncoding];
+  [[GB2ShapeCache sharedShapeCache]
+                  addShapesWithFile:file       //the file exported by Physics Editor
+                  screenHeight:ofGetHeight()  //With defaut anchor point, we need to flip the y-coordinate  
+                  scaleFactor:1];            //Scale Factor: 
+                                            //       1 means the normal size as designed on the editor
+                                           //        < 1 means the fixtures are shrunk
+                                          //         > 1 means the fixtures are enlarged
+                       
+  [[GB2ShapeCache sharedShapeCache] 
+                  addFixturesToBody:gameArea 
+                  forShapeName:@"gameArea"];
+  ```
+* Debug Draw Fixtures
+  ```
+  void ofApp::draw() {
+      ofPushStyle();
+      ofSetLineWidth(3);
+      [[GB2ShapeCache sharedShapeCache] drawFixtures];
+      ofPopStyle();
+  }
+  ```
+
+See [Example](examples/) for more details.
+
 To-Do
 -----
 * Support for multiple bodies
