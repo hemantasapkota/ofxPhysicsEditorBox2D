@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC8B1A8B-EE5F-40B3-84FF-415AF863EB84</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LoadFixtureIOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5C6BD9BF-C138-4FDC-8F19-41238BE36E36</key>
+		<string>https://github.com/hemantasapkota/ofxPhysicsEditorBox2D.git</string>
+		<key>6F09F657-DF68-44AF-AE30-E37F7317DE63</key>
+		<string>https://github.com/openframeworks/openFrameworks.git</string>
+		<key>D6358D42-6A57-41DE-80F1-C11D5DC9112E</key>
+		<string>https://github.com/vanderlin/ofxBox2d.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>addons/ofxPhysicsEditorBox2D/example/ios/LoadFixtureIOS/LoadFixtureIOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5C6BD9BF-C138-4FDC-8F19-41238BE36E36</key>
+		<string>../../../../..</string>
+		<key>6F09F657-DF68-44AF-AE30-E37F7317DE63</key>
+		<string>../../../../../../..</string>
+		<key>D6358D42-6A57-41DE-80F1-C11D5DC9112E</key>
+		<string>../../../../../../ofxBox2d</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/openframeworks/openFrameworks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6F09F657-DF68-44AF-AE30-E37F7317DE63</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6358D42-6A57-41DE-80F1-C11D5DC9112E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxBox2d</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5C6BD9BF-C138-4FDC-8F19-41238BE36E36</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxPhysicsEditorBox2D</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6F09F657-DF68-44AF-AE30-E37F7317DE63</string>
+			<key>IDESourceControlWCCName</key>
+			<string>openFrameworks</string>
+		</dict>
+	</array>
+</dict>
+</plist>
