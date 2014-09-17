@@ -18,7 +18,7 @@ Output
 The following image shows the Physics Editor file with all the fixtures. The annotated image is concerned with the following:
 
 * 1 - Shape name: Corresponds to a Box2D Body. May conatain many fixtures.
-* 2 - Anchor Point: Thi relative position is taken into account while initing the positions of the bodies.
+* 2 - Anchor Point: This relative position is taken into account while initializing the positions of the bodies.
 * 3 - Fixtures: Polygons and Circles.
 * 4 - PTM Ratio: Pixel-To-Meters ratio. This addon works best with PTM = 30.
 * 5 - Export Format: This addon works with Box2D Generic (PLIST).
