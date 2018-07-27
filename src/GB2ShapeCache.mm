@@ -33,7 +33,9 @@
 
 #import "GB2ShapeCache.h"
 
-#import "ofGraphics.h"
+#import "ofMain.h"
+
+using namespace std;
 
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
 #   define CGPointFromString_ CGPointFromString
